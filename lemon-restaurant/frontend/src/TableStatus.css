@@ -1,0 +1,35 @@
+.table-status {
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-left: 2rem;
+}
+.table-status h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #495e57;
+}
+.table-status table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.table-status th, .table-status td {
+  border: 1px solid #ddd;
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+}
+.table-status th {
+  background: #f4ce14;
+  color: #495e57;
+}
+.table-status td.booked {
+  background: #ffb3b3;
+  color: #a00;
+  font-weight: bold;
+}
+.table-status td.available {
+  background: #d4f7c5;
+  color: #295c1c;
+}
